@@ -8,7 +8,7 @@ import java.util.Set;
 @Entity
 public class Book {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)  //it automatically generates the value.
     private Long id;
     private String title;
     private String isbn;
